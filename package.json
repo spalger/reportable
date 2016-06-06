@@ -1,6 +1,6 @@
 {
   "name": "reportable",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Simple reportable mixin for any object, ",
   "main": "reportable.js",
   "scripts": {
