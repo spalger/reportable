@@ -2,10 +2,15 @@
   "name": "reportable",
   "version": "0.1.0",
   "description": "Simple reportable mixin for any object, ",
-  "main": "reportable.js",
+  "main": "dist/reportable.js",
   "scripts": {
-    "test": "mocha -r babel-register"
+    "test": "mocha -r babel-register",
+    "build": "babel -d dist src",
+    "prepublish": "npm run build"
   },
+  "files": [
+    "dist/reportable.js"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
